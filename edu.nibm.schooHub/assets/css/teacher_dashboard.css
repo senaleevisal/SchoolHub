@@ -1,0 +1,334 @@
+body {
+    overflow: hidden;
+    background-color: rgb(236, 243, 249);
+}
+
+nav {
+    background-color: #014775;
+}
+
+#sidebar {
+    height: 95vh;
+    left: -15px;
+    position: relative;
+    background-color: #0485dc;
+}
+
+/* --------------Admin Home---------------- */
+
+#admin_home_table_container {
+    height: 45vh;
+    overflow: auto;
+}
+
+#admin_home_table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#admin_home_table th,
+#admin_home_table td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #DDD;
+}
+
+#admin_home_table th {
+    position: sticky;
+    top: 0;
+}
+
+#admin_home_table th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+#admin_home_table tr:hover {
+    background-color: #D6EEEE;
+}
+
+/* --------------Admin classroom---------------- */
+
+#admin_calssroom_navbar {
+    background-color: #e3f2fd;
+    position: relative;
+    left: -25px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;900&display=swap');
+
+.form-holder {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 85vh;
+}
+
+.form-holder .form-content {
+  position: relative;
+  text-align: center;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  align-items: center;
+  padding: 60px;
+}
+
+.form-content .form-items {
+  border: 10px solid #fff;
+  padding: 40px;
+  display: inline-block;
+  width: 100%;
+  min-width: 540px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  text-align: left;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  position: relative;
+  left: calc(50% - 50px);
+}
+
+.form-content h3 {
+  color: #fff;
+  text-align: left;
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.form-content h3.form-title {
+  margin-bottom: 30px;
+}
+
+.form-content p {
+  color: #fff;
+  text-align: left;
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 20px;
+  margin-bottom: 30px;
+}
+
+
+.form-content label, .was-validated .form-check-input:invalid~.form-check-label, .was-validated .form-check-input:valid~.form-check-label{
+  color: #fff;
+}
+
+.form-content input[type=text], .form-content input[type=password], .form-content input[type=email], .form-content select {
+  width: 100%;
+  padding: 9px 20px;
+  text-align: left;
+  border: 0;
+  outline: 0;
+  border-radius: 6px;
+  background-color: #fff;
+  font-size: 15px;
+  font-weight: 300;
+  color: #8D8D8D;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  margin-top: 16px;
+}
+
+
+.btn-primary{
+  background-color: #6C757D;
+  outline: none;
+  border: 0px;
+   box-shadow: none;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active{
+  background-color: #495056;
+  outline: none !important;
+  border: none !important;
+   box-shadow: none;
+}
+
+.form-content textarea {
+  position: static !important;
+  width: 100%;
+  padding: 8px 20px;
+  border-radius: 6px;
+  text-align: left;
+  background-color: #fff;
+  border: 0;
+  font-size: 15px;
+  font-weight: 300;
+  color: #8D8D8D;
+  outline: none;
+  resize: none;
+  height: 120px;
+  -webkit-transition: none;
+  transition: none;
+  margin-bottom: 14px;
+}
+
+.form-content textarea:hover, .form-content textarea:focus {
+  border: 0;
+  background-color: #ebeff8;
+  color: #8D8D8D;
+}
+
+.mv-up{
+  margin-top: -9px !important;
+  margin-bottom: 8px !important;
+}
+
+.invalid-feedback{
+  color: #ff606e;
+}
+
+.valid-feedback{
+ color: #2acc80;
+}
+
+#admin_tab_classroom_addClass{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #152733;
+    position: relative;
+    left: -25px;
+    margin: 10 auto;
+}
+
+#admin_tab_classroom_AddUsersClass{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #152733;
+    position: relative;
+    left: -25px;
+    margin: 10 auto;
+    min-height: 85vh;
+}
+
+#admin_class_table_holder{
+    height: 35vh;
+    overflow: auto;
+}
+
+#admin_class_table {
+    border-collapse: collapse;
+    width: 100%;
+}
+#admin_class_table th,
+#admin_class_table td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #DDD;
+    color: #ffffff;
+}
+#admin_class_table th {
+    position: sticky;
+    top: 0;
+}
+#admin_class_table th {
+    background-color: #00427f;
+    color: white;
+}
+#admin_class_table tr:hover {
+    background-color: #565656;
+}
+
+#admin_class_user_table_holder{
+    height: 35vh;
+    overflow: auto;
+}
+#admin_class_user_table{
+    border-collapse: collapse;
+    width: 100%;
+}
+#admin_class_user_table th,
+#admin_class_user_table td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #DDD;
+    color: #ffffff;
+}
+#admin_class_user_table th {
+    position: sticky;
+    top: 0;
+}
+#admin_class_user_table th {
+    background-color: #00427f;
+    color: white;
+}
+#admin_class_user_table tr:hover {
+    background-color: #565656;
+}
+
+#btn_admin_addUser_Class{
+    position: relative;
+    left: calc(25% - 50px);
+}
+
+#admin_tab_classroom_AddSubjectsClass{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #152733;
+    position: relative;
+    left: -25px;
+    margin: 10 auto;
+    min-height: 85vh;
+}
+
+#admin_tab_addUser_User{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #152733;
+    position: relative;
+    left: -25px;
+    margin: 10 auto;
+    min-height: 85vh;
+}
+
+#admin_tab_updateUser_User{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #152733;
+    position: relative;
+    left: -25px;
+    margin: 10 auto;
+    min-height: 85vh;
+    color: #ffffff;
+}
+
+#admin_user_table_holder{
+    height: 35vh;
+    overflow: auto;
+}
+#admin_class_table th,
+#admin_class_table td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #DDD;
+    color: #ffffff;
+}
+#admin_class_table th {
+    position: sticky;
+    top: 0;
+}
